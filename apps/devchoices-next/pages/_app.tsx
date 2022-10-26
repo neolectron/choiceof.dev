@@ -4,7 +4,7 @@ import 'tailwindcss/tailwind.css'
 import { DefaultSeo } from 'next-seo'
 import { AnimatePresence } from 'framer-motion'
 
-import { createContext, Dispatch, SetStateAction, useEffect, useState } from 'react'
+import { createContext, useState } from 'react'
 import { QuestionInterface } from '@benjamincode/shared/interfaces'
 import { questions } from '../public/assets/data/questions'
 import Script from 'next/script'
